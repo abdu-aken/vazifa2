@@ -1,0 +1,10 @@
+main {
+    .btn-1 {
+        @include tugmacha ($tugmachaRangi: $saveBtnColor);
+    }
+
+    .btn-2 {
+        @include tugmacha($removeBtnColor);
+    }
+}
+

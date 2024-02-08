@@ -1,0 +1,11 @@
+@mixin tugmacha($tugmachaRangi) {
+    padding: 8px 16px;
+    border: 1px solid darken($color: $tugmachaRangi, $amount: 50%);
+    color: white;
+    background-color: $tugmachaRangi;
+
+    &:hover {
+        background-color: lighten($color: $tugmachaRangi, $amount: 20%);
+    }
+}
+
